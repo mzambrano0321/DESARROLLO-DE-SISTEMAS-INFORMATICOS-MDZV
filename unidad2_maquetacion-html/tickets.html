@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help Desk - Tickets Registrados</title>
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <h1>Fábrica - Sistema de Gestión de Incidentes (Help Desk)</h1>
+        <p>Historial y Listado Organizado de Tickets Registrados</p>
+    </header>
+
+    <!-- Menú de Navegación Común -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio (Dashboard)</a></li>
+            <li><a href="reportar.html">Reportar Incidente</a></li>
+            <li><a href="tickets.html"><strong>Ver Tickets Registrados</strong></a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenido Principal con la Tabla Obligatoria -->
+    <main>
+        <section>
+            <h2>Listado de Incidentes Activos</h2>
+            <p>A continuación se muestran los tickets reportados en la infraestructura de la fábrica, organizados según su categoría y prioridad:</p>
+            
+            <article>
+                <!-- Tabla estructurada (Punto 3 de la Rúbrica) -->
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>ID Ticket</th>
+                            <th>Título del Incidente</th>
+                            <th>Categoría</th>
+                            <th>Prioridad</th>
+                            <th>Descripción</th>
+                            <th>Estado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>TK-001</td>
+                            <td>Fallo en el Switch Principal de Planta</td>
+                            <td>Red</td>
+                            <td>Alta</td>
+                            <td>Los equipos del área de producción no tienen acceso al servidor local.</td>
+                            <td>En progreso</td>
+                        </tr>
+                        <tr>
+                            <td>TK-002</td>
+                            <td>Reemplazo de disco duro dañado</td>
+                            <td>Hardware</td>
+                            <td>Media</td>
+                            <td>El servidor de respaldo alerta sobre un fallo inminente en el disco sector 4.</td>
+                            <td>Abierto</td>
+                        </tr>
+                        <tr>
+                            <td>TK-003</td>
+                            <td>Error de licencia en software ERP</td>
+                            <td>Software</td>
+                            <td>Baja</td>
+                            <td>El módulo de inventario muestra alerta de expiración de credenciales.</td>
+                            <td>Resuelto</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+        </section>
+    </main>
+
+    <!-- Pie de Página -->
+    <footer>
+        <p>Desarrollado por: María Dolores Zambrano Varela &copy; 2026</p>
+        <p>Contacto Soporte: soporte.helpdesk@fabrica.com</p>
+    </footer>
+
+</body>
+</html>
