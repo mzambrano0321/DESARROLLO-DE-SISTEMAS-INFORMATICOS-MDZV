@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design System - Help Desk Component Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="demo-container">
+        <header style="margin-bottom: 3rem; text-align: center;">
+            <h1 style="font-size: 2.5rem; color: #1e293b;">Help Desk UI Kit</h1>
+            <p style="color: #64748b;">Librería de componentes reutilizables y guía visual del sistema.</p>
+        </header>
+
+        <section class="demo-section">
+            <h2>1. Botones (.btn)</h2>
+            <p style="margin-bottom: 1rem; color: #64748b;">Prueba los estados pasando el cursor (:hover) o seleccionando con Tabulación (:focus).</p>
+            <div class="flex-group">
+                <button class="btn btn-primary">Botón Primario</button>
+                <button class="btn btn-secondary">Botón Secundario</button>
+                <button class="btn btn-danger">Botón de Peligro</button>
+            </div>
+        </section>
+
+        <section class="demo-section">
+            <h2>2. Elementos de Formulario</h2>
+            <div class="form-group">
+                <label class="form-label" for="txt-incidente">Título del Incidente</label>
+                <input type="text" id="txt-incidente" class="form-input" placeholder="Ej. Error de conexión al servidor">
+            </div>
+            <div class="form-group">
+                <label class="form-label" for="slc-categoria">Categoría</label>
+                <select id="slc-categoria" class="form-select">
+                    <option value="">Seleccione una opción</option>
+                    <option value="1">Hardware</option>
+                    <option value="2">Software</option>
+                    <option value="3">Redes</option>
+                </select>
+            </div>
+        </section>
+
+        <section class="demo-section">
+            <h2>3. Alertas / Badges de Prioridad (.badge)</h2>
+            <div class="flex-group">
+                <span class="badge badge-alta">Prioridad Alta</span>
+                <span class="badge badge-media">Prioridad Media</span>
+                <span class="badge badge-baja">Prioridad Baja</span>
+            </div>
+        </section>
+
+        <section class="demo-section">
+            <h2>4. Tarjetas de Tickets (.ticket-card)</h2>
+            <div class="flex-group" style="align-items: stretch;">
+                
+                <article class="ticket-card priority-alta">
+                    <div class="ticket-header">
+                        <span class="ticket-id">#TK-1024</span>
+                        <span class="badge badge-alta">Alta</span>
+                    </div>
+                    <h3 class="ticket-title">Caída del Servidor de Base de Datos</h3>
+                    <p class="ticket-desc">El sistema principal de PostgreSQL no responde a las peticiones desde las 08:00 AM.</p>
+                    <div style="text-align: right;">
+                        <button class="btn btn-primary" style="padding: 0.4rem 0.8rem; font-size: 0.85rem;">Gestionar</button>
+                    </div>
+                </article>
+
+                <article class="ticket-card priority-media">
+                    <div class="ticket-header">
+                        <span class="ticket-id">#TK-1025</span>
+                        <span class="badge badge-media">Media</span>
+                    </div>
+                    <h3 class="ticket-title">Fallo en la sincronización de Gitflow</h3>
+                    <p class="ticket-desc">Dos desarrolladores presentan conflictos persistentes en la rama develop.</p>
+                    <div style="text-align: right;">
+                        <button class="btn btn-secondary" style="padding: 0.4rem 0.8rem; font-size: 0.85rem;">Gestionar</button>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>
