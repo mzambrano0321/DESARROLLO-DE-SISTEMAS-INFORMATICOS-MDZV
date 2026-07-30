@@ -20,4 +20,4 @@ Sistema de gestión de tickets de soporte técnico desarrollado con el stack MER
 ##  Evidencias de Funcionamiento
 
 Las capturas de pantalla con las pruebas completas de funcionamiento (Base de datos en MongoDB Compass, endpoints en Postman y flujo de ramas Gitflow) se encuentran documentadas en el informe en formatoPDF adjunto a la entrega.
-[Descargar Informe Final (PDF)](<../Actividad_8_Desarrollo del Backend y Base de Datos (API REST)_Zambrano Varela María Dolores.pdf>)
+[Descargar Informe Final (PDF)]"C:\Users\Asus\OneDrive\Documentos\Tareas de DESARROLLO DE SISTEMAS INFORMATICOS\HelpDesk\Actividad_8_Desarrollo del Backend y Base de Datos (API REST)_Zambrano Varela María Dolores.pdf"
